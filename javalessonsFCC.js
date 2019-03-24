@@ -160,3 +160,147 @@ reusableFunction();
 function functionWithArgs(a, b) {console.log(a+b);}
 functionWithArgs(1, 2);
 functionWithArgs(7, 9);
+
+//Basic JavaScript: Global Scope and Functions
+//Using var, declare a global variable myGlobal outside of any function. Initialize it with a value of 10.
+//Inside function fun1, assign 5 to oopsGlobal without using the var keyword.
+
+// Declare your variable here
+var myGlobal = 10; 
+
+function fun1() {
+  oopsGlobal = 5;
+  // Assign 5 to oopsGlobal Here
+}
+
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+//Basic JavaScript: Local Scope and Functions
+//Declare a local variable myVar inside myLocalScope. Run the tests and then follow the instructions commented out in the editor.
+function myLocalScope() {
+  'use strict'; // you shouldn't need to edit this line
+  var myVar = "holly molly";
+  console.log(myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+
+// Now remove the console log line to pass the test
+
+//Basic JavaScript: Global vs. Local Scope in Functions
+//Add a local variable to myOutfit function to override the value of outerWear with "sweater".
+
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = "sweater";
+  
+  
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+//Basic JavaScript: Return a Value from a Function with Return
+//Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value. See the last line in the editor for an example of how you can test your timesFive function.
+
+// Example
+function minusSeven(num) {
+  return num - 7;
+}
+
+// Only change code below this line
+function timesFive(num) {
+  return num * 5;
+}
+var answer = timesFive(5);
+
+console.log(minusSeven(10));
+
+//Basic JavaScript: Understanding Undefined Value returned from a Function
+//Create a function addFive without any arguments. This function adds 5 to the sum variable, but its returned value is undefined.
+
+// Example
+var sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum = sum + 5;
+}
+
+
+// Only change code above this line
+var returnedValue = addFive();
+
+//Basic JavaScript: Assignment with a Returned Value
+//Call the processArg function with an argument of 7 and assign its return value to the variable processed.
+// Example
+var changed = 0;
+
+function change(num) {
+  return (num + 5) / 3;
+}
+
+changed = change(10);
+
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
+
+//Basic JavaScript: Stand in Line
+//Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+//Add the number to the end of the array, then remove the first element of the array.
+//The nextInLine function should then return the element that was removed.
+
+function nextInLine(arr, item) {
+  // Your code here
+  arr.push(item);
+  var removed = arr.shift();
+  
+  return removed;  // Change this line
+}
+
+// Test Setup
+var testArr = [1,2,3,4,5];
+
+// Display Code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 10)); // Modify this line to test
+console.log("After: " + JSON.stringify(testArr));
+
+//Basic JavaScript: Understanding Boolean Values
+//Modify the welcomeToBooleans function so that it returns true instead of false when the run button is clicked.
+
+function welcomeToBooleans() {
+
+  // Only change code below this line.
+  
+  return true; // Change this line
+  
+  // Only change code above this line.
+  }
+  welcomeToBooleans();
