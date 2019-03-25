@@ -304,3 +304,134 @@ function welcomeToBooleans() {
   // Only change code above this line.
   }
   welcomeToBooleans();
+
+  //Hey it's day 6 continue working on my javascript skills!
+  //Basic JavaScript: Use Conditional Logic with If Statements
+  //Create an if statement inside the function to return "Yes, that was true" if the parameter wasThatTrue is true and return "No, that was false" otherwise.
+
+  // Setup
+function trueOrFalse(wasThatTrue) {
+  if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+   // Only change code below this line.
+   return "No, that was false";
+   
+   
+   // Only change code above this line.
+ 
+ }
+ 
+ // Change this value to test
+ trueOrFalse(true);
+ trueOrFalse(false);
+
+ //Basic JavaScript: Comparison with the Equality Operator
+//Add the equality operator to the indicated line so that the function will return "Equal" when val is equivalent to 12
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Change this value to test
+testEqual(10);
+
+//Basic JavaScript: Comparison with the Strict Equality Operator
+//Use the strict equality operator in the if statement so the function will return "Equal" when val is strictly equal to 7
+
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Change this value to test
+testStrict(10);
+
+//Basic JavaScript: Practice comparing different values
+//The compareEquality function in the editor compares two values using the equality operator. Modify the function so that it returns "Equal" only when the values are strictly equal.
+
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Change this value to test
+compareEquality(20, "20");
+
+//Basic JavaScript: Comparison with the Inequality Operator
+//Add the inequality operator != in the if statement so that the function will return "Not Equal" when val is not equivalent to 99
+
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+testNotEqual("99");
+
+//Basic JavaScript: Comparison with the Strict Inequality Operator
+//Add the strict inequality operator to the if statement so the function will return "Not Equal" when val is not strictly equal to 17
+
+function testStrictNotEqual(val) {
+  // Only Change Code Below this Line
+  
+  if (val !== 17) {
+
+  // Only Change Code Above this Line
+
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+testStrictNotEqual(10);
+
+//Basic JavaScript: Comparison with the Greater Than Operator
+//Add the greater than operator to the indicated lines so that the return statements make sense.
+
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+  
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+// Change this value to test
+testGreaterThan(10);
+
+//Basic JavaScript: Comparison with the Greater Than Or Equal To Operator
+//Add the greater than or equal to operator to the indicated lines so that the return statements make sense.
+
+function testGreaterOrEqual(val) {
+  if (val >=21) {  // Change this line
+    return "20 or Over";
+  }
+  
+  if (val >=10) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+// Change this value to test
+testGreaterOrEqual(21);
