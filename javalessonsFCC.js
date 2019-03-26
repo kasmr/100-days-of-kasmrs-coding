@@ -435,3 +435,118 @@ function testGreaterOrEqual(val) {
 
 // Change this value to test
 testGreaterOrEqual(21);
+
+//Day 7 lets smash this!
+
+//Basic JavaScript: Comparison with the Less Than Operator
+//Add the less than operator to the indicated lines so that the return statements make sense.
+
+function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
+  }
+  
+  if (val < 55) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+// Change this value to test
+testLessThan(55);
+
+//Basic JavaScript: Comparison with the Less Than Or Equal To Operator
+//Add the less than or equal to operator to the indicated lines so that the return statements make sense.
+
+function testLessOrEqual(val) {
+  if (val <= 12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+  
+  if (val <= 24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+// Change this value to test
+testLessOrEqual(10);
+
+//Basic JavaScript: Comparisons with the Logical And Operator
+//Combine the two if statements into one statement which will return "Yes" if val is less than or equal to 50 and greater than or equal to 25. Otherwise, will return "No".
+
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >= 25) {
+      return "Yes";
+    }
+
+
+  // Only change code above this line
+  return "No";
+}
+
+// Change this value to test
+testLogicalAnd(10);
+
+//Basic JavaScript: Comparisons with the Logical Or Operator
+//Combine the two if statements into one statement which returns "Outside" if val is not between 10 and 20, inclusive. Otherwise, return "Inside".
+
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+
+  // Only change code above this line
+  return "Inside";
+}
+
+// Change this value to test
+testLogicalOr(15);
+
+//Basic JavaScript: Introducing Else Statements
+//Combine the if statements into a single if/else statement.
+
+function testElse(val) {
+  var result = "";
+  // Only change code below this line
+  
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+  
+  else {
+    result = "5 or Smaller";
+  }
+  
+  // Only change code above this line
+  return result;
+}
+
+// Change this value to test
+testElse(4);
+
+//Basic JavaScript: Introducing Else If Statements
+//If you have multiple conditions that need to be addressed, you can chain if statements together with else if statements.
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+  
+  else if (val < 5) {
+    return "Smaller than 5";
+  }
+  else {
+  return "Between 5 and 10";
+  }
+}
+
+// Change this value to test
+testElseIf(7);
