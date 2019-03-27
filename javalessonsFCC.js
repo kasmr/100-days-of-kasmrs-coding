@@ -550,3 +550,105 @@ function testElseIf(val) {
 
 // Change this value to test
 testElseIf(7);
+
+//Day 8 right here! just 292 days left to complete the challenge!
+
+//Basic JavaScript: Logical Order in If Else Statements
+//Order is important in if, else if statements.
+
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+// Change this value to test
+orderMyLogic(7);
+
+//Basic JavaScript: Chaining If Else Statements
+//if/else statements can be chained together for complex logic. Here is pseudocode of multiple chained if / else if statements:
+
+function testSize(num) {
+  if (num < 5) {
+  return "Tiny";
+} 
+ else if (num < 10) {
+ return "Small";
+  }
+  else if (num <15) {
+    return "Medium";
+  }
+  else if (num < 20) {
+  return "Large";
+  }
+  else if (num >= 20) {
+    return "Huge";
+  }
+  // Only change code above this line
+}
+
+// Change this value to test
+testSize(7);
+
+//Basic JavaScript: Golf Code
+
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes === 1) {
+  return "Hole-in-one!";
+  }
+  else if (strokes <= (par - 2)) {
+    return "Eagle";
+  }
+  else if (strokes === (par - 1)) {
+    return "Birdie";
+  }
+  else if (strokes === par) {
+    return "Par";
+  }
+  else if (strokes === (par + 1)) {
+    return "Bogey";
+  }
+  else if (strokes === (par + 2)) {
+    return "Double Bogey";
+  }
+  else if (strokes >= (par + 3)) {
+    return "Go Home!"
+  }
+  // Only change code above this line
+}
+
+// Change these values to test
+golfScore(4, 1 );
+
+//Basic JavaScript: Selecting from Many Options with Switch Statements
+
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+  switch(val) {
+    case 1:
+    answer = "alpha";
+    break;
+  case 2:
+    answer = "beta";
+    break;
+  case 3:
+    answer = "gamma";
+    break;
+  case 4:
+    answer = "delta";
+  }
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+// Change this value to test
+caseInSwitch(1);
+ //Well that is it :(
