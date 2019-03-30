@@ -652,3 +652,100 @@ function caseInSwitch(val) {
 // Change this value to test
 caseInSwitch(1);
  //Well that is it :(
+
+//Hi everyone! Today is a big day...day 9! Enjoy the show!
+ //Basic JavaScript: Adding a Default Option in Switch Statements
+ //Write a switch statement to set answer for the following conditions:
+ 
+ function switchOfStuff(val) {
+  var answer = "";
+  // Only change code below this line
+  switch (val) {
+    case "a":
+    answer = "apple"; 
+    break;
+    case "b":
+    answer = "bird";
+    break;
+    case "c":
+    answer = "cat";
+    break;
+    default:
+    answer = "stuff";
+    break;
+  }
+
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+// Change this value to test
+switchOfStuff(1);
+
+//Basic JavaScript: Multiple Identical Options in Switch Statements
+//Write a switch statement to set answer for the following ranges:
+//1-3 - "Low", 4-6 - "Mid", 7-9 - "High"
+
+function sequentialSizes(val) {
+  var answer = "";
+  // Only change code below this line
+  switch (val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = "High";
+
+  }
+  
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+// Change this value to test
+sequentialSizes(1);
+
+//Basic JavaScript: Replacing If Else Chains with Switch
+//Change the chained if/else if statements into a switch statement.
+
+function chainToSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+  
+switch (val) {
+    case "bob":
+      answer = "Marley";
+      break;
+    case 42:
+      answer = "The Answer";
+      break;
+    case 1:
+      answer = "There is no #1";
+      break;
+    case 99:
+      answer = "Missed me by this much!";
+      break;
+    case 7:
+      answer = "Ate Nine";
+      break;
+    default:
+      answer = "";
+  }
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+// Change this value to test
+chainToSwitch(7);
