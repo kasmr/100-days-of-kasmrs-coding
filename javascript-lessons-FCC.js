@@ -792,3 +792,9 @@ function cc(card) {
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 //got really stuck wiht this
+
+//Day 11 
+//In this example, all the properties are stored as strings, such as - "name", "legs", and "tails". However, you can also use numbers as properties. You can even omit the quotes for single-word string properties, as follows:
+//Day 12 i have been doing quite a lot of stuff for this two days but my notebook is killing me! it just cant run vs code and chrome at once it crashes instantly! 
+//it makes me so angry! fucking lenovo getting cheap everywhere!
+//i ve done Record Lesson without any help and so proud of it, but cant post the function feelsbad man, anyway i will continue at my home pc, so the next code you see is the alteration!
