@@ -798,3 +798,39 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 //Day 12 i have been doing quite a lot of stuff for this two days but my notebook is killing me! it just cant run vs code and chrome at once it crashes instantly! 
 //it makes me so angry! fucking lenovo getting cheap everywhere!
 //i ve done Record Lesson without any help and so proud of it, but cant post the function feelsbad man, anyway i will continue at my home pc, so the next code you see is the alteration!
+//Basic JavaScript: Iterate with JavaScript For Loops
+//Use a for loop to work to push the values 1 through 5 onto myArray
+
+var myArray = [];
+for (var i=1; i < 6; i++) {
+  myArray.push(i);
+}
+console.log(myArray);
+
+//Basic JavaScript: Iterate Odd Numbers With a For Loop
+//Push the odd numbers from 1 through 9 to myArray using a for loop.
+
+var myArray = [];
+for (var i=1; i < 10; i+=2) {
+  myArray.push(i);
+}
+
+//Basic JavaScript: Count Backwards With a For Loop
+//Push the odd numbers from 9 through 1 to myArray using a for loop.
+
+var myArray = [];
+for (i=9; i > 0; i-=2) {
+  myArray.push(i);
+}
+
+//Basic JavaScript: Iterate Through an Array with a For Loop
+//Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
+
+var myArr = [ 2, 3, 4, 5, 6];
+
+// Only change code below this line
+var total = 0;
+for (var i = 0; i < myArr.length; i++) {
+total += myArr[i];
+}
+console.log(myArr);
