@@ -834,3 +834,89 @@ for (var i = 0; i < myArr.length; i++) {
 total += myArr[i];
 }
 console.log(myArr);
+
+//Day 13!
+
+//Basic JavaScript: Nesting For Loops
+//Modify function multiplyAll so that it multiplies the product variable by each number in the sub-arrays of arr
+
+function multiplyAll(arr) {
+  var product = 1;
+  // Only change code below this line
+  for (var i = 0; i < arr.length; i++) {
+    for (var j=0; j< arr[i].length; j++) {
+      product = product * arr[i][j];
+    } 
+  }
+
+  // Only change code above this line
+  return product;
+}
+
+// Modify values below to test your code
+multiplyAll([[1,2],[3,4],[5,6,7]]);
+
+//Basic JavaScript: Iterate with JavaScript Do...While Loops
+//Change the while loop in the code to a do...while loop so that the loop will push the number 10 to myArray, and i will be equal to 11 when your code finishes running.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+myArray.push(i);
+i++;}
+while (i < 5); 
+console.log(i);
+
+//Basic JavaScript: Profile Lookup
+//Still thinking on this 
+//Setup
+
+var contacts = [
+  {
+      "firstName": "Akira",
+      "lastName": "Laine",
+      "number": "0543236543",
+      "likes": ["Pizza", "Coding", "Brownie Points"]
+  },
+  {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "number": "0994372684",
+      "likes": ["Hogwarts", "Magic", "Hagrid"]
+  },
+  {
+      "firstName": "Sherlock",
+      "lastName": "Holmes",
+      "number": "0487345643",
+      "likes": ["Intriguing Cases", "Violin"]
+  },
+  {
+      "firstName": "Kristian",
+      "lastName": "Vos",
+      "number": "unknown",
+      "likes": ["JavaScript", "Gaming", "Foxes"]
+  }
+];
+
+
+function lookUpProfile(name, prop){
+// Only change code below this line
+if (name == contacts.firstName) {
+  return contacts.lastName;
+} else {
+  return "No such contact";
+}
+if (prop == contacts.likes[""]) {
+  return contacts.likes[""]
+} else {
+  return "No such property";
+}
+}
+// Only change code above this line
+
+
+// Change these values to test your function
+lookUpProfile("Akira", "likes");
