@@ -920,3 +920,66 @@ if (prop == contacts.likes[""]) {
 
 // Change these values to test your function
 lookUpProfile("Akira", "likes");
+
+//Had been thinking of solution for an hour eventually watched on youtube how someone did it and actually started to understand loops
+
+//Setup
+var contacts = [
+  {
+      "firstName": "Akira",
+      "lastName": "Laine",
+      "number": "0543236543",
+      "likes": ["Pizza", "Coding", "Brownie Points"]
+  },
+  {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "number": "0994372684",
+      "likes": ["Hogwarts", "Magic", "Hagrid"]
+  },
+  {
+      "firstName": "Sherlock",
+      "lastName": "Holmes",
+      "number": "0487345643",
+      "likes": ["Intriguing Cases", "Violin"]
+  },
+  {
+      "firstName": "Kristian",
+      "lastName": "Vos",
+      "number": "unknown",
+      "likes": ["JavaScript", "Gaming", "Foxes"]
+  }
+];
+
+
+function lookUpProfile(name, prop){
+// Only change code below this line
+for (var i = 0; i < contacts.length; i++) {
+  if ( name === contacts[i].firstName) {
+      if ( contacts[i].hasOwnProperty(prop)) {
+          return contacts[i][prop];
+      }
+      else {
+          return "No such property";
+      }
+  } 
+}
+return "No such contact";
+}
+// Only change code above this line
+
+
+// Change these values to test your function
+lookUpProfile("Akira", "likes");
+
+//Basic JavaScript: Generate Random Fractions with JavaScript
+//Change randomFraction to return a random number instead of returning 0.
+
+function randomFraction() {
+
+  // Only change code below this line.
+
+  return Math.random(1);
+
+  // Only change code above this line.
+}
