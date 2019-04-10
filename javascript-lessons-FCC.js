@@ -983,3 +983,80 @@ function randomFraction() {
 
   // Only change code above this line.
 }
+
+// Day 15 
+//Basic JavaScript: Generate Random Whole Numbers with JavaScript
+//Use this technique to generate and return a random whole number between 0 and 9.
+
+var randomNumberBetween0and19 = Math.floor(Math.random() * 20);
+
+function randomWholeNum() {
+
+  // Only change code below this line.
+
+  return Math.floor(Math.random()*10);
+  }
+
+  //Basic JavaScript: Generate Random Whole Numbers within a Range
+//Create a function called randomRange that takes a range myMin and myMax and returns a random number that's greater than or equal to myMin, and is less than or equal to myMax, inclusive.
+
+// Example
+function ourRandomRange(ourMin, ourMax) {
+
+  return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+}
+
+ourRandomRange(1, 9);
+
+// Only change code below this line.
+
+function randomRange(myMin, myMax) {
+
+  return Math.floor(Math.random()* (myMax - myMin +1)) + myMin; // Change this line
+
+}
+
+// Change these values to test your function
+var myRandom = randomRange(1, 15);
+console.log(myRandom);
+
+//Basic JavaScript: Use the parseInt Function
+//Use parseInt() in the convertToInteger function so it converts the input string str into an integer, and returns it.
+
+function convertToInteger(str) {
+
+  return parseInt(str);
+}
+
+convertToInteger("56");
+
+//Basic JavaScript: Use the parseInt Function with a Radix
+//Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it.
+
+function convertToInteger(str) {
+  var radix = 2  
+  return parseInt(str, radix);
+  }
+  
+  
+  convertToInteger("10011");
+
+  //Basic JavaScript: Use the Conditional (Ternary) Operator
+//Use the conditional operator in the checkEqual function to check if two numbers are equal or not. The function should return either true or false.
+
+function checkEqual(a, b) {
+  return a === b ? true : false;
+}
+
+checkEqual(1, 2);
+
+//Basic JavaScript: Use Multiple Conditional (Ternary) Operators
+//Use multiple conditional operators in the checkSign function to check if a number is positive, negative or zero.
+
+function checkSign(num) {
+  return num === 0 ? "zero" : (num > 0) ? "positive" : "negative";
+ }
+ 
+ checkSign(10);
+
+ // that was the last excercise of Basic javascript, heading to ES6 but next time!
