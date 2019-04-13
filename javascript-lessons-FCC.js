@@ -1060,3 +1060,19 @@ function checkSign(num) {
  checkSign(10);
 
  // that was the last excercise of Basic javascript, heading to ES6 but next time!
+
+ //Day 16. Started ES6
+ //ES6: Explore Differences Between the var and let Keywords
+ //Update the code so it only uses the let keyword.
+
+let catName;
+let quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
+console.log(quote);
