@@ -12,3 +12,5 @@ Day #17 Today i've learned:
 6) How to Write Arrow Functions with Parameters (Note: const doubler = (item) => item * 2;)
 7) How to Write Higher Order Arrow Functions (Note: to make the code more succinct)
 8) How to Set Default Parameters for Your Functions
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/ef7b6a83fbdf0ec4bc912a0a1a02695933e04570/firstES6challenges.js
