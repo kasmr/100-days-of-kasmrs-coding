@@ -21,4 +21,4 @@ Also a lot of methods such as indexOf, length, slice, concat, push and others.
 
 Day #19
 Today i've learned High order functions & arrays, big thank you to Traversy media for that, now i understand it. Here is my code: 
-
+https://github.com/kasmr/100-days-of-kasmrs-coding/commit/f1a80373dbe96fba7fee06943ce7d9c7c7c15598
