@@ -15,6 +15,10 @@ Day #17 Today i've learned:
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/ef7b6a83fbdf0ec4bc912a0a1a02695933e04570/firstES6challenges.js
 
-Day #17 
+Day #18 
 Today i've been watching javascript video courses by TheNetNinja and he showed there that right now it s much better to use 'template string way' instead of 'concatenation'.
 Also a lot of methods such as indexOf, length, slice, concat, push and others. 
+
+Day #19
+Today i've learned High order functions & arrays, big thank you to Traversy media for that, now i understand it. Here is my code: 
+
