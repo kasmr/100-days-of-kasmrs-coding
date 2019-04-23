@@ -22,3 +22,32 @@ Also a lot of methods such as indexOf, length, slice, concat, push and others.
 Day #19
 Today i've learned High order functions & arrays, big thank you to Traversy media for that, now i understand it. Here is my code: 
 https://github.com/kasmr/100-days-of-kasmrs-coding/commit/f1a80373dbe96fba7fee06943ce7d9c7c7c15598
+
+Dqy #20 
+Today i've been learning on freecodecamp, here is the list:
+1)The spread syntax (rest operator), i ve got really confused with this one, thanks to net ninja for explanation: Example
+
+This code
+
+const product = (function() {
+	"use strict";
+	return function product(n1, n2, n3) {
+		const args = [n1, n2, n3];
+		return args.reduce((a, b) => a * b, 1);
+	};
+})();
+console.log(product(2, 4, 6));//48
+Can be written as such
+
+const product = (function() {
+	"use strict";
+	return function product(...n) {		
+		return n.reduce((a, b) => a * b, 1);
+	};
+})();
+console.log(product(2, 4, 6));//48
+
+2)The use  of the Spread Operator to Evaluate Arrays In-Place
+3)The use  of Destructuring Assignment to Assign Variables from Objects, after this challenge i fucking hate freecodecamp!!!! trigered!!!!
+
+freecodecamp is very annoying, video courses are much better!
