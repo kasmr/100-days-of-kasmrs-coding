@@ -23,7 +23,7 @@ Day #19
 Today i've learned High order functions & arrays, big thank you to Traversy media for that, now i understand it. Here is my code: 
 https://github.com/kasmr/100-days-of-kasmrs-coding/commit/f1a80373dbe96fba7fee06943ce7d9c7c7c15598
 
-Dqy #20 
+Day #20 
 Today i've been learning on freecodecamp, here is the list:
 1)The spread syntax (rest operator), i ve got really confused with this one, thanks to net ninja for explanation: Example
 
@@ -51,3 +51,7 @@ console.log(product(2, 4, 6));//48
 3)The use  of Destructuring Assignment to Assign Variables from Objects, after this challenge i fucking hate freecodecamp!!!! trigered!!!!
 
 freecodecamp is very annoying, video courses are much better!
+
+Day #21 here. I continued doing freecodecamp challenges still : 
+1)ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
+funny thing huh? cant make this challenges, they get me triggered, went to learn by video courses by traversy media!
