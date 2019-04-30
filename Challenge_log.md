@@ -55,3 +55,11 @@ freecodecamp is very annoying, video courses are much better!
 Day #21 here. I continued doing freecodecamp challenges still : 
 1)ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
 funny thing huh? cant make this challenges, they get me triggered, went to learn by video courses by traversy media!
+
+Day #22. I always get started with freecodecamp challenges and always it makes me triggered, but still......
+1)Destructuring Assignment with the Rest Operator to Reassign Array Elements
+2)Use Destructuring Assignment to Pass an Object as a Function's Parameters
+3)Create Strings using Template Literals
+4)Write Concise Object Literal Declarations Using Simple Fields
+5)Write Concise Declarative Functions with ES6
+6)Use class Syntax to Define a Constructor Function

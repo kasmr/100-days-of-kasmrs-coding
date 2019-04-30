@@ -51,7 +51,7 @@ const AVG_TEMPERATURES = {
   console.log(getTempOfTmrw(AVG_TEMPERATURES)); // should be 79
   
 //Day 21
-//ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
+// 1)ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
 
 const LOCAL_FORECAST = {
   today: { min: 72, max: 83 },
@@ -67,3 +67,116 @@ function getMaxOfTmrw(forecast) {
 }
 
 console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+
+//Day 22
+//1)ES6: Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
+//Use destructuring assignment with the rest operator to perform an effective Array.prototype.slice() so that arr is a sub-array of the original array source with the first two elements omitted.
+
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removeFirstTwo(list) {
+  "use strict";
+  // change code below this line
+  const [a,b, ...arr] = source; // change this
+  // change code above this line
+  return arr;
+}
+const arr = removeFirstTwo(source);
+console.log(arr); // should be [3,4,5,6,7,8,9,10]
+console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
+
+//2)ES6: Use Destructuring Assignment to Pass an Object as a Function's Parameters
+//Use destructuring assignment within the argument to the function half to send only max and min inside the function.
+
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+const half = (function() {
+  "use strict"; // do not change this line
+
+  // change code below this line
+  return function half ({max, min}) {
+    
+    // use function argument destructuring
+    return (max + min) / 2.0;
+  };
+  // change code above this line
+
+})();
+console.log(stats); // should be object
+console.log(half(stats)); // should be 28.015
+
+//3)ES6: Create Strings using Template Literals
+//Use template literal syntax with backticks to display each entry of the result object's failure array. Each entry should be wrapped inside an li element with the class attribute text-warning, and listed within the resultDisplayArray.
+
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["id-blacklist", "no-dup-keys"]
+};
+function makeList(arr) {
+  "use strict";
+
+  // change code below this line
+  const resultDisplayArray =  [ `<li class="text-warning">${result.failure[0]}</li>`,
+    `<li class="text-warning">${result.failure[1]}</li>`, 
+    `<li class="text-warning">${result.failure[2]}</li>` ]
+
+  // change code above this line
+
+  return resultDisplayArray;
+}
+/**
+ * makeList(result.failure) should return:
+ * [ `<li class="text-warning">no-var</li>`,
+ *   `<li class="text-warning">var-on-top</li>`, 
+ *   `<li class="text-warning">linebreak</li>` ]
+ **/
+const resultDisplayArray = makeList(result.failure);
+
+//4)ES6: Write Concise Object Literal Declarations Using Simple Fields
+//Use simple fields with object literals to create and return a Person object.
+
+const createPerson = (name, age, gender) => {
+  "use strict";
+  // change code below this line
+  return {name, age, gender
+  };
+  // change code above this line
+};
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+
+//5)ES6: Write Concise Declarative Functions with ES6
+
+// change code below this line
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    "use strict";
+    this.gear = newGear;
+  }
+};
+// change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);
+
+//6)ES6: Use class Syntax to Define a Constructor Function
+
+function makeClass() {
+  "use strict";
+  /* Alter code below this line */
+class Vegetable {
+  constructor(name){
+    this.name = name;
+  }
+}
+  /* Alter code above this line */
+  return Vegetable;
+}
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // => should be 'carrot'
