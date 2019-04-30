@@ -63,3 +63,7 @@ Day #22. I always get started with freecodecamp challenges and always it makes m
 4)Write Concise Object Literal Declarations Using Simple Fields
 5)Write Concise Declarative Functions with ES6
 6)Use class Syntax to Define a Constructor Function
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
+
+After i went to netNinja for his javascript course 
