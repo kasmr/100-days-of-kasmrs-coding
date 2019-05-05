@@ -67,3 +67,10 @@ Day #22. I always get started with freecodecamp challenges and always it makes m
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
 
 After i went to netNinja for his javascript course 
+
+//Day #23. The first thing i've done is i watched the netNinja video course about js functions. 
+
+Then i went to freecodecamp to practise ES6
+1)Use getters and setters to Control Access to an Object
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
