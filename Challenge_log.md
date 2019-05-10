@@ -68,9 +68,32 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challeng
 
 After i went to netNinja for his javascript course 
 
-//Day #23. The first thing i've done is i watched the netNinja video course about js functions. 
+Day #23. The first thing i've done is i watched the netNinja video course about js functions. 
 
 Then i went to freecodecamp to practise ES6
 1)Use getters and setters to Control Access to an Object
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
+
+Also  i've done video course with netNinja about functions 
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/functionsWithNetNinja.js
+
+Day #24.
+1)Understand the Differences Between import and require
+2)Use export to Reuse a Code Block
+3)Use * to Import Everything from a File
+4)Create an Export Fallback with export default (Note: Since export default is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use export default with var, let, or const)
+5)Import a Default Export (Note: The syntax differs in one key place - the imported value, add, is not surrounded by curly braces, {}. Unlike exported values, the primary method of importing a default export is to simply write the value's name after import.)
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
+
+Well, that was it. I've completed all ES6 chfallenges on freeCodeCamp. The next stoppage is RegEx. 
+
+1)Regular Expressions: Using the Test Method
+2)Regular Expressions: Match Literal Strings
+3)Regular Expressions: Match a Literal String with Different Possibilities
+4)Regular Expressions: Ignore Case While Matching (Note: You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the i flag. You can use it by appending it to the regex. An example of using this flag is /ignorecase/i. This regex can match the strings "ignorecase", "igNoreCase", and "IgnoreCase".)
+5)Regular Expressions: Extract Matches (Note: To use the .match() method, apply the method on a string and pass in the regex inside the parentheses.)
+6)Regular Expressions: Find More Than the First Match (Note: You can have multiple flags on your regex like /search/gi)
+

@@ -214,3 +214,35 @@ const thermos = new Thermostat(76); // setting in Fahrenheit scale
 let temp = thermos.temperature; // 24.44 in C
 thermos.temperature = 26;
 temp = thermos.temperature; // 26 in C
+
+//Day 24 
+//1)ES6: Understand the Differences Between import and require
+//Add the appropriate import statement that will allow the current file to use the capitalizeString function. The file where this function lives is called "string_functions", and it is in the same directory as the current file.
+
+"use strict";
+import { capitalizeString } from "string_functions";
+
+//2)ES6: Use export to Reuse a Code Block
+//Below are two variables that I want to make available for other files to use. Utilizing the first way I demonstrated export, export the two variables.
+
+"use strict";
+export const foo = "bar";
+export const bar = "foo";
+
+//3)ES6: Use * to Import Everything from a File
+//The code below requires the contents of a file, "capitalize_strings", found in the same directory as it, imported. Add the appropriate import * statement to the top of the file, using the object provided.
+
+"use strict";
+import * as myImport from "capitalize_strings";
+
+//4)Create an Export Fallback with export default
+
+"use strict";
+export default function subtract(x,y) {return x - y;}
+
+//5)ES6: Import a Default Export
+
+"use strict";
+import subtract from "math_functions";
+subtract(7,4);
+
