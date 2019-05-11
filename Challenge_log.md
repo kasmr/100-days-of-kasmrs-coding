@@ -97,3 +97,19 @@ Well, that was it. I've completed all ES6 chfallenges on freeCodeCamp. The next 
 5)Regular Expressions: Extract Matches (Note: To use the .match() method, apply the method on a string and pass in the regex inside the parentheses.)
 6)Regular Expressions: Find More Than the First Match (Note: You can have multiple flags on your regex like /search/gi)
 
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExFirstChallenges.js
+
+Day #25
+Today i've started continuing RegEx challenges on free code camp:
+
+1)Regular Expressions: Match Anything with Wildcard Period (The wildcard character . will match any one character. The wildcard is also called dot and period. You can use the wildcard character just like any other character in the regex. For example, if you wanted to match "hug", "huh", "hut", and "hum", you can use the regex /hu./ to match all four words.)
+2)Regular Expressions: Match Single Character with Multiple Possibilities
+3)Regular Expressions: Match Letters of the Alphabet (Inside a character set, you can define a range of characters to match using a hyphen character: -.)
+4)Regular Expressions: Match Numbers and Letters of the Alphabet
+5)Regular Expressions: Match Single Characters Not Specified
+6)Regular Expressions: Match Characters that Occur One or More Times (You can use the + character to check if that is the case. Remember, the character or pattern has to be present consecutively. That is, the character has to repeat one after the other.)
+7)Regular Expressions: Match Characters that Occur Zero or More Times
+
+
+
+Then i went to netNinja video course about objects.
