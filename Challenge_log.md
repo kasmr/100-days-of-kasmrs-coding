@@ -113,3 +113,13 @@ Today i've started continuing RegEx challenges on free code camp:
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExSecondChallenges.js
 
 Then i went to netNinja video course about objects.
+
+Day #26 
+I've continued to learn about objects with netNinja:
+1)Kinds of Math objects and how to use them
+2)Difference between reference values and simple values 
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/objectsWithNetNinja.js
+
+Then i learned about Document Object Model (DOM):
+
