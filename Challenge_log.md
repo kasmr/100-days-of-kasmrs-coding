@@ -121,5 +121,9 @@ I've continued to learn about objects with netNinja:
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/objectsWithNetNinja.js
 
-Then i learned about Document Object Model (DOM):
+Then i started to learn about Document Object Model (DOM):
+1)querySelector + querySelectorAll
+2)getElementById
+3)getElemntsByClassName (Note: cannot use forEach method)
+
 
