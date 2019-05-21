@@ -17,7 +17,7 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/blob/ef7b6a83fbdf0ec4bc912a0a
 
 Day #18 
 Today I've been watching javascript video courses by TheNetNinja and he showed there that right now it s much better to use 'template string way' instead of 'concatenation'.
-Also a lot of methods such as ```indexOf```, ```length```, ```slice``, ```concat```, ```push``` and others. 
+Also a lot of methods such as ```indexOf```, ```length```, ```slice```, ```concat```, ```push``` and others. 
 
 Day #19
 Today I've learned High order functions & arrays, big thank you to Traversy media for that, now I understand it. Here is my code: 
@@ -25,7 +25,7 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/commit/f1a80373dbe96fba7fee06
 
 Day #20 
 Today I've been learning on freecodecamp, here is the list:
-1)The spread syntax (rest operator), I've got really confused with this one, thanks to net ninja for explanation: Example
+1)The spread syntax (```...``` rest operator), I've got really confused with this one, thanks to net ninja for explanation: Example
 
 This code
 
@@ -84,9 +84,9 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/functionsWithNetN
 Day #24.
 1)Understand the Differences Between ```import``` and ```require```
 2)Use export to Reuse a Code Block
-3)Use * to Import Everything from a File
-4)Create an Export Fallback with export default (Note: Since export default is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use export default with var, let, or const)
-5)Import a Default Export (Note: The syntax differs in one key place - the imported value, add, is not surrounded by curly braces, ```{ }```. Unlike exported values, the primary method of importing a default export is to simply write the value's name after ```import```.)
+3)Use ```*``` to ```import``` Everything from a File
+4)Create an Export Fallback with ```export default``` (Note: Since ```export default``` is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use ```export default``` with ```var```, ```let```, or ```const```)
+5)Import a default export (Note: The syntax differs in one key place - the imported value, add, is not surrounded by curly braces, ```{ }```. Unlike exported values, the primary method of importing a default export is to simply write the value's name after ```import valueName;```.)
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
 
