@@ -128,4 +128,10 @@ Then I started to learn about Document Object Model (DOM):
 2)```getElementById```
 3)```getElemntsByClassName``` (Note: cannot use forEach method)
 
+Day #27 
+I'm up to the last part of DOM video course with netNinja. There I've learned about:
+1)How to use```getElementByTagName```
+2)Property called ```innerText```
+3)Property called ```innerHTML```
+4)Updating HTML elements with ```getAttribute``` and ```setAttribute``` (changing already existing attributes and even making new!) 
 
