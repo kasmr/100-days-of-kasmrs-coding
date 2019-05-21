@@ -7,7 +7,7 @@ Day #17 Today I've learned:
 1) Compare Scopes of the ```var``` and ```let``` Keywords
 2) How to declare a variable with const keyword (Note: A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.)
 3) How to mutate an Array Declared with const
-4) How to Prevent Object Mutation (Note Object.freeze
+4) How to Prevent Object Mutation (Note ```Object.freeze```
 5) How to Use Arrow Functions to Write Concise Anonymous Functions (Note: ```const myFunc = () => "value"```)
 6) How to Write Arrow Functions with Parameters (Note: ```const doubler = (item) => item * 2;```)
 7) How to Write Higher Order Arrow Functions (Note: to make the code more succinct)
@@ -17,7 +17,7 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/blob/ef7b6a83fbdf0ec4bc912a0a
 
 Day #18 
 Today I've been watching javascript video courses by TheNetNinja and he showed there that right now it s much better to use 'template string way' instead of 'concatenation'.
-Also a lot of methods such as indexOf, length, slice, concat, push and others. 
+Also a lot of methods such as ```indexOf```, ```length```, ```slice``, ```concat``, ```push``` and others. 
 
 Day #19
 Today I've learned High order functions & arrays, big thank you to Traversy media for that, now I understand it. Here is my code: 
@@ -50,7 +50,7 @@ console.log(product(2, 4, 6));//48
 ```
 
 2)The use  of the Spread Operator to Evaluate Arrays In-Place
-3)The use  of Destructuring Assignment to Assign Variables from Objects, after this challenge i fucking hate freecodecamp!!!! trigered!!!!
+3)The use  of Destructuring Assignment to Assign Variables from ```Objects```, after this challenge I f###ing hate freecodecamp!!!! trigered!!!!
 
 freecodecamp is very annoying, video courses are much better!
 
@@ -68,21 +68,21 @@ Day #22. I always get started with freecodecamp challenges and always it makes m
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
 
-After i went to netNinja for his javascript course 
+After I went to netNinja for his javascript course 
 
-Day #23. The first thing i've done is i watched the netNinja video course about js functions. 
+Day #23. The first thing I've done is I watched the netNinja video course about js functions. 
 
-Then i went to freecodecamp to practise ES6
+Then I went to freecodecamp to practise ES6
 1)Use getters and setters to Control Access to an Object
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/secondES6challenges.js
 
-Also  i've done video course with netNinja about functions 
+Also  I've done video course with netNinja about functions 
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/functionsWithNetNinja.js
 
 Day #24.
-1)Understand the Differences Between import and require
+1)Understand the Differences Between ```import``` and ```require```
 2)Use export to Reuse a Code Block
 3)Use * to Import Everything from a File
 4)Create an Export Fallback with export default (Note: Since export default is used to declare a fallback value for a module or file, you can only have one value be a default export in each module or file. Additionally, you cannot use export default with var, let, or const)
@@ -95,26 +95,26 @@ Well, that was it. I've completed all ES6 chfallenges on freeCodeCamp. The next 
 1)Regular Expressions: Using the Test Method
 2)Regular Expressions: Match Literal Strings
 3)Regular Expressions: Match a Literal String with Different Possibilities
-4)Regular Expressions: Ignore Case While Matching (Note: You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the i flag. You can use it by appending it to the regex. An example of using this flag is /ignorecase/i. This regex can match the strings "ignorecase", "igNoreCase", and "IgnoreCase".)
-5)Regular Expressions: Extract Matches (Note: To use the .match() method, apply the method on a string and pass in the regex inside the parentheses.)
-6)Regular Expressions: Find More Than the First Match (Note: You can have multiple flags on your regex like /search/gi)
+4)Regular Expressions: Ignore Case While Matching (Note: You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the ```i``` flag. You can use it by appending it to the regex. An example of using this flag is ```/ignorecase/i```. This regex can match the strings "ignorecase", "igNoreCase", and "IgnoreCase".)
+5)Regular Expressions: Extract Matches (Note: To use the ```.match()```, apply the method on a string and pass in the regex inside the parentheses.)
+6)Regular Expressions: Find More Than the First Match (Note: You can have multiple flags on your regex like ```/search/gi```)
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExFirstChallenges.js
 
 Day #25
-Today i've started continuing RegEx challenges on free code camp:
+Today I've started continuing RegEx challenges on free code camp:
 
-1)Regular Expressions: Match Anything with Wildcard Period (The wildcard character . will match any one character. The wildcard is also called dot and period. You can use the wildcard character just like any other character in the regex. For example, if you wanted to match "hug", "huh", "hut", and "hum", you can use the regex /hu./ to match all four words.)
+1)Regular Expressions: Match Anything with Wildcard Period (The wildcard character . will match any one character. The wildcard is also called dot and period. You can use the wildcard character just like any other character in the regex. For example, if you wanted to match "hug", "huh", "hut", and "hum", you can use the regex ```/hu./``` to match all four words.)
 2)Regular Expressions: Match Single Character with Multiple Possibilities
-3)Regular Expressions: Match Letters of the Alphabet (Inside a character set, you can define a range of characters to match using a hyphen character: -.)
+3)Regular Expressions: Match Letters of the Alphabet (Inside a character set, you can define a range of characters to match using a hyphen character: ```-```.)
 4)Regular Expressions: Match Numbers and Letters of the Alphabet
 5)Regular Expressions: Match Single Characters Not Specified
-6)Regular Expressions: Match Characters that Occur One or More Times (You can use the + character to check if that is the case. Remember, the character or pattern has to be present consecutively. That is, the character has to repeat one after the other.)
+6)Regular Expressions: Match Characters that Occur One or More Times (You can use the ```+``` character to check if that is the case. Remember, the character or pattern has to be present consecutively. That is, the character has to repeat one after the other.)
 7)Regular Expressions: Match Characters that Occur Zero or More Times
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExSecondChallenges.js
 
-Then i went to netNinja video course about objects.
+Then I went to netNinja video course about objects.
 
 Day #26 
 I've continued to learn about objects with netNinja:
@@ -123,7 +123,7 @@ I've continued to learn about objects with netNinja:
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/objectsWithNetNinja.js
 
-Then i started to learn about Document Object Model (DOM):
+Then I started to learn about Document Object Model (DOM):
 1)```querySelector``` + ```querySelectorAll```
 2)```getElementById```
 3)```getElemntsByClassName``` (Note: cannot use forEach method)
