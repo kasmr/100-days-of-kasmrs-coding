@@ -3,7 +3,7 @@ Started ES6 first challenge: difference between ```var``` and ```let```
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/commit/6dd6a6cec936a94fbe3941b718ee8c972cc0b70c
 
-Day #17 Today i've learned:
+Day #17 Today I've learned:
 1) Compare Scopes of the ```var``` and ```let``` Keywords
 2) How to declare a variable with const keyword (Note: A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.)
 3) How to mutate an Array Declared with const
@@ -16,16 +16,16 @@ Day #17 Today i've learned:
 https://github.com/kasmr/100-days-of-kasmrs-coding/blob/ef7b6a83fbdf0ec4bc912a0a1a02695933e04570/firstES6challenges.js
 
 Day #18 
-Today i've been watching javascript video courses by TheNetNinja and he showed there that right now it s much better to use 'template string way' instead of 'concatenation'.
+Today I've been watching javascript video courses by TheNetNinja and he showed there that right now it s much better to use 'template string way' instead of 'concatenation'.
 Also a lot of methods such as indexOf, length, slice, concat, push and others. 
 
 Day #19
-Today i've learned High order functions & arrays, big thank you to Traversy media for that, now i understand it. Here is my code: 
+Today I've learned High order functions & arrays, big thank you to Traversy media for that, now I understand it. Here is my code: 
 https://github.com/kasmr/100-days-of-kasmrs-coding/commit/f1a80373dbe96fba7fee06943ce7d9c7c7c15598
 
 Day #20 
-Today i've been learning on freecodecamp, here is the list:
-1)The spread syntax (rest operator), i ve got really confused with this one, thanks to net ninja for explanation: Example
+Today I've been learning on freecodecamp, here is the list:
+1)The spread syntax (rest operator), I ve got really confused with this one, thanks to net ninja for explanation: Example
 
 This code
 
