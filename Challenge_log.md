@@ -135,3 +135,10 @@ I'm up to the last part of DOM video course with netNinja. There I've learned ab
 3)Property called ```innerHTML```
 4)Updating HTML elements with ```getAttribute``` and ```setAttribute``` (changing already existing attributes and even making new!) 
 
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/documentObjectModel.js
+
+Day #28 here!
+So today i will finish my javascript lessons with netNinja and to be more accurate DOM lesson.
+1)How to add, change or delete ```css``` attributes via javascript 
+2)How to add ```classes``` 
+3)How to remove ```classes``` 

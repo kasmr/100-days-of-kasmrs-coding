@@ -1,0 +1,12 @@
+.error{
+    border: 1px dotted chartreuse;
+    padding: 10px;
+    color: chartreuse;
+    margin: 15px;
+}
+.content{
+    border: 1px dotted crimson;
+    padding: 10px;
+    color: crimson;
+    margin: 10px;
+}
