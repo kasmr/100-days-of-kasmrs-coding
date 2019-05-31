@@ -142,3 +142,20 @@ So today i will finish my javascript lessons with netNinja and to be more accura
 1)How to add, change or delete ```css``` attributes via javascript 
 2)How to add ```classes``` 
 3)How to remove ```classes``` 
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/documentObjectModel.js
+
+Day #29 
+Couldnt finish last lesson because of a challenge at the end, so here we are. Actually did it quiet fast and easy. The funny thing is what to do this challenge i had used ```Regullar Expressions``` i have learned on freecodecamp, that was the first thing what came to my mind and it worked! I felt so happy :) While netNinja used ```include method``` which he didn't explain.
+
+
+
+Then i went back to regEx which after challenge seems to be very useful:
+1)Find Characters with ```Lazy Matching```
+2)The regex ```/z+/``` matches the letter z when it appears one or more times in a row
+3)```Match Beginning``` String Patterns
+4)```Match Ending``` String Patterns (```shorthand character class```)
+5)Match Everything But Letters and Numbers (```shorthand character class \W```)
+6)Match All Numbers (```shorthand character class \d``` to count how many digits there are)
+7)Match All Non-Numbers (or non-digits using a similar shortcut that uses an uppercase ```\D``` instead)
+8)Restrict Possible Usernames
