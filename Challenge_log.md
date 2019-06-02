@@ -158,4 +158,18 @@ Then i went back to regEx which after challenge seems to be very useful:
 5)Match Everything But Letters and Numbers (```shorthand character class \W```)
 6)Match All Numbers (```shorthand character class \d``` to count how many digits there are)
 7)Match All Non-Numbers (or non-digits using a similar shortcut that uses an uppercase ```\D``` instead)
-8)Restrict Possible Usernames
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/commit/ae0c398ce4a2ac368a1c95cf5887374502430fc3
+
+Day #30
+Hope to finish today the regEx challenges and move to debbuging, that must be interesting.
+Well, this is what i've learned today:
+1)Restrict Possible Usernames
+2)Match Whitespace (```s, \s```)
+3)Match Non-Whitespace Characters (```S, \S```)
+4)Specify Upper and Lower Number of Matches (```quantity specifiers {}```)
+5)Specify Only the Lower Number of Matches (```{3,}```)
+6)Specify Exact Number of Matches (```{6}```)
+7)Check for All or None (```?```)
+8)Regular Expressions: Positive (```?=...```) and Negative (```?!...```) Lookahead
+9)Reuse Patterns Using Capture Groups
