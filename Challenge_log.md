@@ -172,4 +172,17 @@ Well, this is what i've learned today:
 6)Specify Exact Number of Matches (```{6}```)
 7)Check for All or None (```?```)
 8)Regular Expressions: Positive (```?=...```) and Negative (```?!...```) Lookahead
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/commit/9d1de78353f3e3102097d8ac049e9cdf924aad3e#diff-297c898081f49f7abc84057533a71e5d
+
+Day #31
+Couldnt finish last time, my internet access went down. So i continued from there i stopped, regEx. 
 9)Reuse Patterns Using Capture Groups
+10)Use Capture Groups to ```Search``` and ```Replace```
+11)Remove Whitespace from Start and End (```challenge```)
+
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExLastChallenges.js
+
+Well, i've done all the ```regEx``` challenges and now i'm on ```Debugging```
+1)Use the JavaScript Console to Check the Value of a Variable
+

@@ -52,5 +52,26 @@ let sampleWord = "astronaut";
 let pwRegex = /(?=\w{5,})(?=\D*\d{2})/; // Change this line
 let result = pwRegex.test(sampleWord);
 
+//Day 31
 //9)Reuse Patterns Using Capture Groups
+//Using the .match() method on a string will return an array with the string it matches, along with its capture group.
 
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
+let result = reRegex.test(repeatNum);
+
+//10)Use Capture Groups to Search and Replace
+
+let huhText = "This sandwich is good.";
+let fixRegex = /good/; // Change this line
+let replaceText = "okey-dokey"; // Change this line
+let result = huhText.replace(fixRegex, replaceText);
+console.log(result);
+
+//11)Remove Whitespace from Start and End
+//Write a regex and use the appropriate string methods to remove whitespace at the beginning and end of strings.
+
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g; // Change this line
+let result = hello.replace(wsRegex, ""); // Change this line
+console.log(result);
