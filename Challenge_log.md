@@ -185,4 +185,28 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/regExLastChalleng
 
 Well, i've done all the ```regEx``` challenges and now i'm on ```Debugging```
 1)Use the JavaScript Console to Check the Value of a Variable
+2)Understanding the Differences between the freeCodeCamp and Browser Console
 
+https://github.com/kasmr/100-days-of-kasmrs-coding/blob/master/debuggingFirsChallenges.js
+
+Day #32 
+I continued learning to debugg, so i just completed the previous file with:
+3)Use ```typeof``` to Check the Type of a Variable
+4)Catch Misspelled Variable and Function Names
+5)Catch Unclosed Parentheses, Brackets, Braces and Quotes
+6)Catch Mixed Usage of Single and Double Quotes
+7)Catch Use of Assignment Operator Instead of Equality Operator
+8)Catch Missing Open and Closing Parenthesis After a Function Call
+9)Catch Arguments Passed in the Wrong Order When Calling a Function
+10)Catch Off By One Errors When Using Indexing
+11)Use Caution When Reinitializing Variables Inside a Loop
+12)Prevent Infinite Loops with a Valid Terminal Condition
+
+So that was it for debugging, and now i'm starting ```Basic data structures```:
+1)Use an Array to Store a Collection of Data
+2) Access an Array's Contents Using Bracket Notation
+3)Add Items to an Array with ```push()``` and ```unshift()```
+4)Remove Items from an Array with ```pop()``` and ```shift()```
+5)Remove Items Using ```splice()```
+6)Add Items Using ```splice()```
+7)7)Copy Array Items Using ```slice()```
