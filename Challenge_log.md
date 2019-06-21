@@ -210,3 +210,7 @@ So that was it for debugging, and now i'm starting ```Basic data structures```:
 5)Remove Items Using ```splice()```
 6)Add Items Using ```splice()```
 7)7)Copy Array Items Using ```slice()```
+
+Day #33 here.
+Got distructed for a bit, continue learning!
+I wanted to learn with freecodecamp, but something was wrong with website or my internet, so i went making weigth converter with traversyMedia
