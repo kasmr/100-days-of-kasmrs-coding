@@ -215,4 +215,6 @@ Day #33 here.
 Got distracted for a bit, continue learning!
 I wanted to learn with freecodecamp, but something was wrong with website or my internet, so i went making weigth converter with traversyMedia
 
+https://github.com/kasmr/100-days-of-kasmrs-coding/commit/2d6c492870ad59fcb53909bcedf52d9e05ac9a84
+
 
