@@ -217,4 +217,6 @@ I wanted to learn with freecodecamp, but something was wrong with website or my 
 
 https://github.com/kasmr/100-days-of-kasmrs-coding/commit/2d6c492870ad59fcb53909bcedf52d9e05ac9a84
 
+Day #34
+Well its really hard to maintain huh???)) but im still here so lets go.
 
