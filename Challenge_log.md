@@ -219,4 +219,4 @@ https://github.com/kasmr/100-days-of-kasmrs-coding/commit/2d6c492870ad59fcb53909
 
 Day #34
 Well its really hard to maintain huh???)) but im still here so lets go.
-
+I ve done filterable list but js doesn't work actually, dunno why. going to test it at PC again, to find the problem. 
