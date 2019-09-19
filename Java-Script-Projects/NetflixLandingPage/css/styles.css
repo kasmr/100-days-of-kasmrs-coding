@@ -130,8 +130,8 @@ img {
   cursor: pointer;
   color: #fff;
 }
-tab-border {
-  border-bottom: var (--primary-color) 10px solid;
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
 }
 
 /* tab content */
@@ -141,6 +141,18 @@ tab-border {
   background: black;
   color: white;
 }
+
+/* hide content */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+/* hide content end */
 
 #tab-1-content .tab-1-content-inner {
   display: grid;
@@ -325,6 +337,10 @@ footer li {
   .text-md {
     font-size: 1rem;
   }
+}
+
+.btn-icon {
+  margin-left: 1rem;
 }
 
 @media (max-width: 700px) {
