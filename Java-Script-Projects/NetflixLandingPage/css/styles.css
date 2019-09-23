@@ -356,4 +356,10 @@ footer li {
   #tab-2-content .tab-2-content-bottom {
     grid-template-columns: 1fr;
   }
+
+  .showcase-top img {
+    top: 30%;
+    left: 60%;
+    transform: translate(0);
+  }
 }
