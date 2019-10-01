@@ -97,8 +97,66 @@ img {
 /* section b */
 section b {
   position: relative;
-  background: url("../img/gal4958.jpg") no-repeat bottom center/cover;
+  background-image: url("./img/section-b.jpg") no-repeat bottom center/cover;
   height: 600px;
+}
+
+.section-b-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 4rem 0;
+}
+
+.section-b-inner h3 {
+  font-size: 2rem;
+}
+
+.section-b-inner h2 {
+  font-size: 3.5rem;
+  margin-top: 1rem;
+}
+
+.section-b-inner p {
+  font-size: 1.5rem;
+  margin: 1.5rem 3rem;
+}
+
+/* section c */
+.section-c .gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.section-c .gallery a:first-child {
+  /* grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3; */
+  /* Shorter way */
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+
+.section-c .gallery a:nth-child(2) {
+  grid-column: 3/5;
+}
+
+.section-c .gallery img,
+.section-c .gallery a {
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+.section-footer {
+  background: var(--primary-color);
 }
 
 /* Utility classes for btn */
@@ -118,11 +176,12 @@ section b {
 }
 
 .overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
+  background-color: var(--overlay-color);
 }
 
 /* 26min */
