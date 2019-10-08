@@ -7,11 +7,12 @@
 }
 
 .box2 {
+  height: 100vh;
   justify-content: space-around;
   display: flex;
   align-items: center;
 }
 
-.box2 img {
-  width: 80%;
+img {
+  width: 60%;
 }
